@@ -6,6 +6,7 @@ image:
   repository: draft
   tag: dev
   pullPolicy: IfNotPresent
+  imagePullSecret: docker-crf
 service:
   name: demo
   type: ClusterIP
